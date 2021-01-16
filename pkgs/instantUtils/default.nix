@@ -100,7 +100,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "ppenguin";
     repo = "instantOS";
-    rev = "4a61ff9d20e4c5d7cba587d5bc4317a3707a8573";
+    # rev = "4a61ff9d20e4c5d7cba587d5bc4317a3707a8573";
+    ref = "fix-battery-status";
     sha256 = "sha256-AnQ5u5LVdeEgIgotW2f6DAhdfQIh9BplmlUDhCXqJOM=";
     name = "instantOS_instantUtils";
   };
