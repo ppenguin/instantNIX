@@ -102,8 +102,8 @@ stdenv.mkDerivation rec {
     repo = "instantOS";
     rev = "4a61ff9d20e4c5d7cba587d5bc4317a3707a8573";
     ref = "fix-battery-status";
-    # sha256 = "sha256:0f8cd3qmr8kvrhc49zbkk0sy5jv5x3nv273476ksmi4a2is224lq";
-    sha256 = "sha256:1qr4x8jq80smk9jimx1109yms20cz9kmnb8a48hf2xfmjaxkjx02";
+    sha256 = "sha256:0f8cd3qmr8kvrhc49zbkk0sy5jv5x3nv273476ksmi4a2is224lq";
+    # sha256 = "sha256:1qr4x8jq80smk9jimx1109yms20cz9kmnb8a48hf2xfmjaxkjx02";
     name = "instantOS_instantUtils";
   };
 
