@@ -98,9 +98,9 @@ stdenv.mkDerivation rec {
   version = "unstable";
 
   src = fetchFromGitHub {
-    owner = "instantOS";
+    owner = "ppenguin";
     repo = "instantOS";
-    rev = "bc977116c624925577602b97d6fb7f76c557f631";
+    rev = "4a61ff9d20e4c5d7cba587d5bc4317a3707a8573";
     sha256 = "sha256-AnQ5u5LVdeEgIgotW2f6DAhdfQIh9BplmlUDhCXqJOM=";
     name = "instantOS_instantUtils";
   };
