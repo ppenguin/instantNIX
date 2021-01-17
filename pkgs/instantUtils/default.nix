@@ -100,7 +100,9 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "ppenguin";
     repo = "instantOS";
-    ref = "fix-battery-status";
+    # fetchFromGitHub doesn't support ref, or does it?
+    # ref = "fix-battery-status";
+    rev = "4a61ff9d20e4c5d7cba587d5bc4317a3707a8573";
     sha256 = "sha256:0f8cd3qmr8kvrhc49zbkk0sy5jv5x3nv273476ksmi4a2is224lq";
     name = "instantOS_instantUtils";
   };
